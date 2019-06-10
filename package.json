@@ -1,0 +1,19 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node ./bin/www",
+    "devstart": "SET NODE_ENV=dev && nodemon ./bin/www",
+    "test": "mocha --timeout 100000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.4.3",
+    "mocha": "^6.1.4",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.37"
+  }
+}
